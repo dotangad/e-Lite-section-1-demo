@@ -247,7 +247,7 @@ html {
 .preview {
   width: calc(100vw - 500px - 300px);
   height: 100%;
-  padding: 20px;
+  padding: 20px 50px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -297,8 +297,9 @@ html {
 }
 
 .preview .email .title {
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 2.2rem;
+  line-height: 2.5rem;
   font-weight: bold;
   color: #222;
 }
@@ -308,7 +309,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
 }
 
 .preview .email .meta .left {
