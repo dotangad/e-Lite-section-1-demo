@@ -273,6 +273,7 @@ html {
 .preview .icons svg {
   height: 25px;
   width: 25px;
+  cursor: pointer;
 }
 
 .preview .icons .left svg {
@@ -287,6 +288,7 @@ html {
 }
 
 .preview .prev-messages {
+  cursor: pointer;
   margin: 10px 0;
   border: 1px solid var(--gray-3);
   border-right: none;
