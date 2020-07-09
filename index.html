@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mail</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col sidebar">
+        <div class="top">
+          <div class="compose-btn">
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+
+            <div class="label">Compose</div>
+          </div>
+
+          <div class="sections">
+            <div class="section selected">
+              <svg fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M5 3a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V5a2 2 0 00-2-2H5zm0 2h10v7h-2l-1 2H8l-1-2H5V5z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <div class="label">
+                Inbox
+              </div>
+              <div class="n">1,209</div>
+            </div>
+            <div class="section">
+              <svg fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+
+              <div class="label">
+                Drafts
+              </div>
+              <div class="n">4</div>
+            </div>
+            <div class="section">
+              <svg viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  d="M11.293 5.70679C11.4816 5.88894 11.7342 5.98974 11.9964 5.98746C12.2586 5.98518 12.5094 5.88001 12.6948 5.6946C12.8802 5.5092 12.9854 5.25838 12.9876 4.99619C12.9899 4.73399 12.8891 4.48139 12.707 4.29279L10.707 2.29279C10.5194 2.10531 10.2651 2 9.99996 2C9.7348 2 9.48049 2.10531 9.29296 2.29279L7.29296 4.29279C7.1108 4.48139 7.01001 4.73399 7.01229 4.99619C7.01456 5.25838 7.11973 5.5092 7.30514 5.6946C7.49055 5.88001 7.74136 5.98518 8.00356 5.98746C8.26576 5.98974 8.51836 5.88894 8.70696 5.70679L8.99996 5.41379L8.99996 9.99979C8.99996 10.265 9.10532 10.5194 9.29285 10.7069C9.48039 10.8944 9.73474 10.9998 9.99996 10.9998C10.2652 10.9998 10.5195 10.8944 10.7071 10.7069C10.8946 10.5194 11 10.265 11 9.99979L11 5.41379L11.293 5.70679Z"
+                  fill="#999999"
+                />
+                <path
+                  d="M3 5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H6C6.26522 3 6.51957 3.10536 6.70711 3.29289C6.89464 3.48043 7 3.73478 7 4C7 4.26522 6.89464 4.51957 6.70711 4.70711C6.51957 4.89464 6.26522 5 6 5H5V12H7L8 14H12L13 12H15V5H14C13.7348 5 13.4804 4.89464 13.2929 4.70711C13.1054 4.51957 13 4.26522 13 4C13 3.73478 13.1054 3.48043 13.2929 3.29289C13.4804 3.10536 13.7348 3 14 3H15C15.5304 3 16.0391 3.21071 16.4142 3.58579C16.7893 3.96086 17 4.46957 17 5V15C17 15.5304 16.7893 16.0391 16.4142 16.4142C16.0391 16.7893 15.5304 17 15 17H5C4.46957 17 3.96086 16.7893 3.58579 16.4142C3.21071 16.0391 3 15.5304 3 15V5Z"
+                  fill="#999999"
+                />
+              </svg>
+
+              <div class="label">
+                Sent
+              </div>
+              <div class="n"></div>
+            </div>
+            <div class="section">
+              <svg fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+
+              <div class="label">
+                Trash
+              </div>
+              <div class="n"></div>
+            </div>
+            <div class="section">
+              <svg fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  fill-rule="evenodd"
+                  d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+
+              <div class="label">
+                Saved
+              </div>
+              <div class="n"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="avatar">
+            <img src="images/kanye.png" alt="Kanye" />
+          </div>
+
+          <div class="info">
+            <div class="name">Kanye West</div>
+            <div class="email">potus@whitehouse.gov</div>
+          </div>
+
+          <div class="chevron">
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col list">
+        <div class="search">
+          <input type="text" placeholder="search" />
+        </div>
+
+        <div class="emails">
+          <div class="email selected">
+            <div class="info">
+              <div class="subject">Such communication much wow</div>
+              <div class="meta">
+                <div class="sender">Aravind Ashok</div>
+                <div class="time">Just Now</div>
+              </div>
+            </div>
+
+            <div class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea......
+            </div>
+          </div>
+
+          <div class="email">
+            <div class="info">
+              <div class="subject">Such communication much wow</div>
+              <div class="meta">
+                <div class="sender">Aravind Ashok</div>
+                <div class="time">Just Now</div>
+              </div>
+            </div>
+
+            <div class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea......
+            </div>
+          </div>
+
+          <div class="email">
+            <div class="info">
+              <div class="subject">Such communication much wow</div>
+              <div class="meta">
+                <div class="sender">Aravind Ashok</div>
+                <div class="time">Just Now</div>
+              </div>
+            </div>
+
+            <div class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea......
+            </div>
+          </div>
+          <div class="email">
+            <div class="info">
+              <div class="subject">Such communication much wow</div>
+              <div class="meta">
+                <div class="sender">Aravind Ashok</div>
+                <div class="time">Just Now</div>
+              </div>
+            </div>
+
+            <div class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea......
+            </div>
+          </div>
+
+          <div class="email">
+            <div class="info">
+              <div class="subject">Such communication much wow</div>
+              <div class="meta">
+                <div class="sender">Aravind Ashok</div>
+                <div class="time">Just Now</div>
+              </div>
+            </div>
+
+            <div class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea......
+            </div>
+          </div>
+          <div class="email">
+            <div class="info">
+              <div class="subject">Such communication much wow</div>
+              <div class="meta">
+                <div class="sender">Aravind Ashok</div>
+                <div class="time">Just Now</div>
+              </div>
+            </div>
+
+            <div class="excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea......
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col preview">
+        <div class="icons">
+          <div class="left">
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V8a2 2 0 00-2-2h-5L9 4H4zm7 5a1 1 0 00-2 0v1H8a1 1 0 000 2h1v1a1 1 0 002 0v-1h1a1 1 0 000-2h-1V9z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M6 13a4 4 0 010-8 4 4 0 118 0 4 4 0 010 8h-3V8a1 1 0 10-2 0v5H6zM9 13h2v2.586l1.293-1.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 111.414-1.414L9 15.586V13z"
+              ></path>
+            </svg>
+          </div>
+          <div class="right">
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <div class="text">1 of 1,209</div>
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="prev-messages">
+          5 previous messages
+        </div>
+        <div class="email">
+          <div class="title">
+            Such communication much wow
+          </div>
+          <div class="meta">
+            <div class="left">
+              <img src="images/ashok.png" alt="Ashok" />
+              <div class="sender">
+                <div class="name">Aravind Ashok</div>
+                <div class="email">gamer@whitehouse.gov</div>
+              </div>
+            </div>
+
+            <div class="right">
+              <div class="time">Just Now</div>
+            </div>
+          </div>
+
+          <div class="content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <img src="images/hk-skyline.jpg" alt="Skyline" />
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
